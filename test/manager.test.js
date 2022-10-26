@@ -3,7 +3,7 @@ const Manager = require('../lib/manager');
 describe("Manager", () => {
 
     describe("Initialization", () => {
-        it("Should make an object with entered name, id, and email address and Github", () => {
+        it("Should make an object with entered name, id, and email address and Office #", () => {
             const manager = new Manager("Ramon Padin", 100, "ramonjpadin@gmail.com", 5);
 
             expect(manager.name).toEqual("Ramon Padin");
